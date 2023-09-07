@@ -2,10 +2,13 @@ import Image from "next/image";
 import { v2 as cloudinary } from "cloudinary";
 import { Suspense } from "react";
 
+export const dynamic = "force-dynamic";
+
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
   api_key: process.env.CLOUDINARY_API_KEY,
   api_secret: process.env.CLOUDINARY_API_SECRET,
+  secure: true,
 });
 
 // export default async function Home() {
@@ -18,10 +21,10 @@ cloudinary.config({
 // import mountains from '../public/mountains.jpg'
 
 export default async function Gallery1() {
+  const getPics = () => {};
   const { resources } = await cloudinary.search
     .expression("photobooth2")
     .max_results(500)
-    .sort_by("public_id", "desc")
     .execute();
 
   return (
