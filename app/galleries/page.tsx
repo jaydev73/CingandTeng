@@ -24,7 +24,6 @@ export default async function Gallery1() {
     .sort_by("public_id", "desc")
     .execute();
 
-  console.log("results", resources);
   return (
     <Suspense fallback={<Loading />}>
       <h1
