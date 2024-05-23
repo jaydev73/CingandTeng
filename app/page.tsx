@@ -1,7 +1,8 @@
-import HeroSection from "./components/hero-section";
-import Contact from "./components/contact";
-import Feature from "./components/feature";
-import Content from "./components/content";
+// import HeroSection from "./components/hero-section";
+// import Contact from "./components/contact";
+// import Feature from "./components/feature";
+// import Content from "./components/content";
+import Gallery1 from "./galleries/page";
 // import Features from "./components/feature";
 
 // export default async function Home() {
@@ -16,10 +17,11 @@ import Content from "./components/content";
 export default async function Home() {
   return (
     <>
-      <HeroSection />
+      {/* <HeroSection />
       <Content />
       <Feature />
-      <Contact />
+      <Contact /> */}
+      <Gallery1 />
     </>
   );
 }

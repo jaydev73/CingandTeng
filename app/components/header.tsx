@@ -33,20 +33,20 @@ function Header() {
             </span>
           </div>
           <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-            <Link href="/about" className="mr-5">
+            {/* <Link href="/about" className="mr-5">
               About
             </Link>
             <Link href="/services" className="mr-5 hover:text-gray-900">
               Services
-            </Link>
+            </Link> */}
             <Link href="/galleries" className="mr-5 hover:text-gray-900">
               Galleries
             </Link>
-            <Link href="/blog" className="mr-5 hover:text-gray-900">
+            {/* <Link href="/blog" className="mr-5 hover:text-gray-900">
               Blog
-            </Link>
+            </Link> */}
           </nav>
-          <button className="inline-flex items-center  border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0">
+          {/* <button className="inline-flex items-center  border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0">
             Book Now
             <svg
               fill="none"
@@ -59,7 +59,7 @@ function Header() {
             >
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
-          </button>
+          </button> */}
           <button
             aria-label="Toggle Dark Mode"
             type="button"

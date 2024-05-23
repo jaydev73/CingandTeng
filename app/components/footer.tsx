@@ -9,17 +9,17 @@ function Footer() {
             <span className="ml-3 text-xl">BoothChic</span>
           </a>
           <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-            © 2023 BoothChic —
-            <a
+            © 2024 Booth/Chic
+            {/* <a
               href="https://twitter.com/knyttneve"
               className="text-gray-600 ml-1"
               rel="noopener noreferrer"
               target="_blank"
             >
               @knyttneve
-            </a>
+            </a> */}
           </p>
-          <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          {/* <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a className="text-gray-500">
               <svg
                 fill="currentColor"
@@ -75,7 +75,7 @@ function Footer() {
                 <circle cx="4" cy="4" r="2" stroke="none"></circle>
               </svg>
             </a>
-          </span>
+          </span> */}
         </div>
       </footer>
     </>

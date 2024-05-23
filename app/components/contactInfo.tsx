@@ -16,7 +16,7 @@ export default function ContactInfo() {
                 </a>
               </li>
             </ul>
-            <a className="ml-3">
+            {/* <a className="ml-3">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -70,7 +70,7 @@ export default function ContactInfo() {
                 ></path>
                 <circle cx="4" cy="4" r="2" stroke="none"></circle>
               </svg>
-            </a>
+            </a> */}
           </span>
         </div>
       </div>
