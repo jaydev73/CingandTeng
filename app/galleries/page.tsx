@@ -23,7 +23,7 @@ cloudinary.config({
 export default async function Gallery1() {
   const getPics = () => {};
   const { resources } = await cloudinary.search
-    .expression("photobooth2")
+    .expression("photobooth3")
     .max_results(500)
     .execute();
 
